@@ -1,0 +1,16 @@
+{
+  "name": "telegram-virustotal-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot with VirusTotal API integration",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20231025.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
